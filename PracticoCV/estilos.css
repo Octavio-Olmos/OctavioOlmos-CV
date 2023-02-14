@@ -1,0 +1,141 @@
+h1 {
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+    font-style: italic;
+    padding: 5px;
+    margin: 5px;
+
+    
+}
+h2 {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    padding: 5px;
+
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    background-image: url(./61.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 1px auto;
+}
+div{
+    text-align: center;    
+    margin: 5px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+
+    
+}
+.div_nombre {
+    
+    width: auto;
+    height: auto;
+    float: left ;
+
+}
+
+
+.div_datos{
+    
+    float: left;
+    padding: 50px;
+    margin-top: 100px ;
+    
+}
+
+
+.btn  {
+    width: 100px;
+    height: 100px;
+    border:rgba(230, 224, 200, 0.822);
+    border-radius: 50%;
+    margin: 10px auto;
+    
+    
+}
+#boton_datos{
+    background: salmon;
+}
+#boton_habilidades{
+    background: lightblue;
+}
+#boton_experiencia{
+    background: lightgreen;
+}
+  
+.btn:hover  {
+    color: #fff;
+    
+}
+
+.div_info{
+    margin-top: 100px;
+    float:left;
+}
+
+section {
+    text-align:left;
+    float:left;
+    border: 2px solid rgba(230, 224, 200, 0.822);
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+
+#section_datos {
+    background: salmon;
+    display:none;       
+}
+#section_habilidades {
+    background-color: lightblue;
+    display:none;       
+}
+
+#section_experiencia {
+    background-color: rgb(176, 230, 183);
+    display:none;       
+}
+
+p {
+    font-style: italic;
+    font-size:medium;
+    color:black;
+    
+}
+body {
+    background: rgba(230, 224, 200, 0.822);
+}
+
+
+/*.btn-azul  {
+    padding: .375rem .75rem;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    color: #007bff;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+    display: inline-block;
+}
+  
+.btn-azul:hover, .btn-azul:active, .btn-azul:focus {
+    color: #fff;
+    background-color: #007bff;
+}*/
+/*.centrar_btn{
+    display:flex;
+    justify-content:right;
+    background: salmon;
+    padding: 10px;
+    max-width: 500px;
+    height: 100px;
+}*/
+
+

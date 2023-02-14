@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(132, 0, 255);
+    color:rgb(255, 166, 0);
+    }  
+
+
+/*
+esto es un comentario dentro de un documento CSS
+p {
+    color: red;
+}
+h1 {
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bold;
+    color: gray;
+    background-color: blue;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px 30px 40px 50px;
+  }
+
+*/

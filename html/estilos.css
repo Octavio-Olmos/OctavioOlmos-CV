@@ -1,0 +1,26 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #4A88F4 ;
+    color: #fff;
+    font-size: 30px;
+    float:bottom; /* posiona todas las cajas hacia donde le digamos*/
+}
+/*.caja_padre{
+    width: 500px;
+    height: 500px;
+    background: #000 ;
+    color: #fff;
+    position: relative; 
+}*/
+.caja {
+    /*position: relative; /*desplaza la caja dejando el espacio vacio donde estaba*/
+    /*position: absolute; /*desplaza la caja sin dejar  donde estaba no se utiliza es dificil de manejar*/
+    position: static; /*deja la caja en una posicion fija y si hago scroll no se mueve*/
+    top: 100px;
+    bottom: ;   /* colocar valor en px para desplazar las cajas */
+    right: ;
+    left: 100px;
+
+}
